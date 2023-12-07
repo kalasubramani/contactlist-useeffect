@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* new classes */
+body{
+background-color: rgba(61, 177, 209);
+}
+
+.highlight{
+  border : 2px red solid;  
+}
+.normal{
+  border : 1px yellow solid;
+}
+.container{
+  width:700px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+.contactList{
+  width:40%;
+  text-align: left;
+  margin:auto;
+  border-radius: 10px;
+  border : 1px gray solid;
+  background-color:rgba(135,206,250,0.5);
+}
+.selectedContact{
+  width:45%;
+  padding: 0px;
+  border-radius: 10px;
+  border : 1px gray solid;
+  background-color:rgba(135,206,250,0.5);
+}
+.personalDetails{
+  list-style-type: none;
+  text-align: left;
+}
+.bold{
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
+}
+.companyDetails{
+  text-align: left;
+  padding-left: 3em;
+}
+.locPin {
+  width: 1em;
+  height: 1em ;
+  background-color: blue ;
+  border-radius: 60px 60px 0px 60px ;
+  position:relative ;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+.locPin::after {
+  content: "" ;
+  width: 0.5em ;
+  height: 0.5em ;
+  background:yellow ;
+  position: absolute ;
+  left: 26% ;
+  top: 26% ;
+  border-radius: 60px ;
+}
+.link{
+  text-decoration: underline;
+}
+.liststyle{
+  list-style-type: none;
+}
+.listitem{
+  text-align: center;  
+  color:red;
+  padding:15px 0px 8px 0px;
+  height: 35px;
+  width:90%;
+  margin: 10px 50px 2px 0px;
+  border-radius: 10px;
+ }
